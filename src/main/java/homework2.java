@@ -1,7 +1,9 @@
 import java.util.Random;
-
+//внес изменения для формирования новой ветки
+//вопрос преподавателю: по хорошему проект нужно пустым загружать на гитхаб,
+// а потом в новой ветке чистовик грузить через pull request ?  или я опять не понял ...
 public class homework2 {
-    // 1. целочисленный массив, состоящий из элеменов 0 и 1  ; в цикле заменить 0 на 1, 1 на 0
+
     public static void main(String[] args) {
 
         System.out.println("////////////// задание 1 //////////////////");
@@ -64,7 +66,6 @@ public class homework2 {
         int[] arr74 = new int[]{3,5,6,1};
         int[] arr75 = new int[]{1,2,3,4,5,6,7,8,9,10};
 
-
         massivIntPrintln(arr73);
         massivIntPrintln(arr74);
         massivIntPrintln(arr75);
@@ -76,8 +77,6 @@ public class homework2 {
         massivIntPrintln(arr73);
         massivIntPrintln(arr74);
         massivIntPrintln(arr75);
-
-
 
     }
 
@@ -95,7 +94,6 @@ public class homework2 {
 
                 i++;
             }
-
         }
         if (n < 0) {//сдвиг влево
             i = -1;
@@ -104,14 +102,9 @@ public class homework2 {
                 for (int z = 1; z <= m.length - 1; z++) m[z - 1] = m[z];
                 m[m.length - 1] = buff;
 
-
                 i--;
             }
-
-
-
         }
-
     }
 
 
